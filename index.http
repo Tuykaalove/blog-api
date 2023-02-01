@@ -1,0 +1,27 @@
+GET http://localhost:8000/categories 
+
+###
+
+GET http://localhost:8000/categories/id
+
+###
+
+POST http://localhost:8000/categories 
+content-type: application/json
+
+{
+    "name": "Entertainment"
+}
+
+###
+
+DELETE http://localhost:8000/categories/e26b3c62-fb01-4b52-ac6d-1883ded850a1
+
+###
+
+PUT http://localhost:8000/categories/822e5907-54be-4fa7-bc3f-eeb08b4900c1 
+content-type: application/json
+
+{
+    "name": "Entertainment"
+}
